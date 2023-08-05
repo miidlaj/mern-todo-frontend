@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ADDNEW_TODO, DELETE_TODO, GETALL_TODO, TOGGLE_TAB, TOGGLE_TODO, UPDATE_TODO } from './type';
 
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://todo-frontend-uzv4.onrender.com";
 
 export const addNewTodo = (data) => async(dispatch) => {
 
